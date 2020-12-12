@@ -3,5 +3,5 @@ services:
   php:
     image: php:8
     volumes:
-      - .:/tests
-    working_dir: /tests
+      - .:/root
+    working_dir: /root
